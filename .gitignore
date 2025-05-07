@@ -1,0 +1,25 @@
+# Ignore node modules and dependencies
+node_modules/
+
+# Ignore environment variables and configuration files
+.env
+.env.local
+config.json
+
+# Ignore log files
+*.log
+
+# Ignore build outputs and compiled binaries
+dist/
+build/
+
+# Ignore IDE settings and system files
+.vscode/
+.DS_Store
+
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore generated files from macOS
+*.swp
